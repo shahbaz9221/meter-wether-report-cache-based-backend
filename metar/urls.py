@@ -1,6 +1,6 @@
 from django.urls import path
 
-from .views import *
+from metar.views import pong, get_weather_report
 
 urlpatterns = [
 
